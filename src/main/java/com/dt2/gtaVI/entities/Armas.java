@@ -12,21 +12,21 @@ public class Armas {
     private int id;
     private String nome;
     private String fabricante;
-    private String img;
+    private String imagem;
     private String descricao;
 
     public Armas(int id, String nome, String fabricante, String img, String descricao) {
         this.id = id;
         this.nome = nome;
         this.fabricante = fabricante;
-        this.img = img;
+        this.imagem = imagem;
         this.descricao = descricao;
     }
 
     public Armas(String nome, String fabricante, String img, String descricao) {
         this.nome = nome;
         this.fabricante = fabricante;
-        this.img = img;
+        this.imagem = imagem;
         this.descricao = descricao;
     }
 
@@ -58,12 +58,12 @@ public class Armas {
         this.fabricante = fabricante;
     }
 
-    public String getImg() {
-        return img;
+    public String getImagem() {
+        return imagem;
     }
 
-    public void setImg(String img) {
-        this.img = img;
+    public void setImagem(String imagem) {
+        this.imagem = imagem;
     }
 
     public String getDescricao() {
